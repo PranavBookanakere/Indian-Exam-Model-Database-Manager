@@ -8,7 +8,7 @@ def call_pu_colleges_procedure(student_id, exam_name, student_marks):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -28,7 +28,7 @@ def call_universities_procedure(student_id, exam_name, student_marks):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -48,7 +48,7 @@ def display_result_table():
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -69,7 +69,7 @@ def insert_into_pu_admission(admission_data):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -89,7 +89,7 @@ def insert_into_university_admission(admission_data):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -178,7 +178,7 @@ def call_stored_procedure(student_id, exam_name, student_marks):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -199,7 +199,7 @@ def display_result_table():
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -220,7 +220,7 @@ def insert_into_pu_admission(admission_data):
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -239,7 +239,7 @@ def display_pu_admission_table():
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
