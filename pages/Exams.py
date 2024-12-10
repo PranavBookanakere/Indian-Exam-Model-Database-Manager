@@ -5,7 +5,7 @@ import streamlit as st
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='16020byaadav',
+    password='',
     database='indian_exams'
 )
 
@@ -149,7 +149,7 @@ def connect_to_database():
     return mysql.connector.connect(
         host='localhost',
         user='root',
-        password='16020byaadav',
+        password='',
         database='indian_exams'
     )
 
